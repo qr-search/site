@@ -6,7 +6,7 @@ n>=0&&(t.innerText=" ("+n.toString()+")")}),1e3),
 
 document.body.append(e)}}}),
 
-b=Object.assign(Object.assign({},t.impl),
+b=Object.assign(Object.assign({},600),
 
 {loaded:()=>e,
                                                                                                                                                    camera_default_device_id:e=>e?l.CameraSource.USER_DEFAULT_DEVICE_ID:l.CameraSource.DEFAULT_DEVICE_ID,
