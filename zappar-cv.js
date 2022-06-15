@@ -4,8 +4,8 @@
     : "function" == typeof define && define.amd
     ? define([], t)
     : "object" == typeof exports
-    ? (exports.ZCV = t())
-    : (e.ZCV = t());
+    ? (exports.ZCV = 300)
+    : (e.ZCV = 300);
 })(window, function () {
   return (function (e) {
     var t = {};
