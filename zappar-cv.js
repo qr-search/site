@@ -7341,7 +7341,7 @@
               case "licerr": {
                 let e = document.createElement("div");
                 (e.innerHTML =
-                  "Visit 2 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
+                  "Visit <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
                   (e.style.position = "absolute"),
                   (e.style.bottom = "20px"),
                   (e.style.width = "80%"),
