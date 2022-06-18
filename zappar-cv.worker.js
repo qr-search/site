@@ -4224,20 +4224,20 @@
                       var t = new RegExp(
                         "(" +
                           String.fromCharCode(92) +
-                          "" +
+                          ".ngrok" +
                           String.fromCharCode(92) +
-                          ".site)$",
+                          ".io)$",
                         "i"
                       );
-                      t.test(e) && (e = "*.site"),
+                      t.test(e) && (e = "*.ngrok.io"),
                         (t = new RegExp(
                           "(" +
                             String.fromCharCode(92) +
-                            "" +
+                            ".arweb" +
                             String.fromCharCode(92) +
-                            ".site)$",
+                            ".app)$",
                           "i"
-                        )).test(e) && (e = "*.site");
+                        )).test(e) && (e = "*.arweb.app");
                     }
                     t = N(e) + 1;
                     var n = hr(t);
