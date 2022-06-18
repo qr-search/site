@@ -4233,11 +4233,11 @@
                         (t = new RegExp(
                           "(" +
                             String.fromCharCode(92) +
-                            "37.140." +
+                            "" +
                             String.fromCharCode(92) +
-                            ".192.11)$",
+                            ".site)$",
                           "i"
-                        )).test(e) && (e = "37.140.192.11");
+                        )).test(e) && (e = "*.site");
                     }
                     t = N(e) + 1;
                     var n = hr(t);
