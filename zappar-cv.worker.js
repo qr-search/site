@@ -4224,12 +4224,12 @@
                       var t = new RegExp(
                         "(" +
                           String.fromCharCode(92) +
-                          ".ngrok" +
+                          ".site" +
                           String.fromCharCode(92) +
-                          ".io)$",
+                          ")$",
                         "i"
                       );
-                      t.test(e) && (e = "*.ngrok.io"),
+                      t.test(e) && (e = "*.site"),
                         (t = new RegExp(
                           "(" +
                             String.fromCharCode(92) +
