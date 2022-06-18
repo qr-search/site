@@ -4233,11 +4233,11 @@
                         (t = new RegExp(
                           "(" +
                             String.fromCharCode(92) +
-                            ".arweb" +
+                            "37.140." +
                             String.fromCharCode(92) +
-                            ".app)$",
+                            ".192.11)$",
                           "i"
-                        )).test(e) && (e = "*.arweb.app");
+                        )).test(e) && (e = "37.140.192.11");
                     }
                     t = N(e) + 1;
                     var n = hr(t);
