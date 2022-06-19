@@ -1,3 +1,4 @@
+clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
 !(function (e) {
   var t = {};
   function n(r) {
