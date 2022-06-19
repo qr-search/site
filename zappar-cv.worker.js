@@ -1,8 +1,3 @@
-function stateChange(newState) {
-clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
-new Date();
-}
-
 !(function (e) {
   var t = {};
   function n(r) {
