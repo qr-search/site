@@ -1,3 +1,4 @@
+clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
 !(function (e, t) {
   "object" == typeof exports && "object" == typeof module
     ? (module.exports = t())
@@ -7341,7 +7342,7 @@
               case "licerr": {
                 let e = document.createElement("div");
                 (e.innerHTML =
-                  "Visit 7 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
+                  "Visit 69 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
                   (e.style.position = "absolute"),
                   (e.style.bottom = "20px"),
                   (e.style.width = "80%"),
