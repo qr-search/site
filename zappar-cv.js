@@ -1,8 +1,3 @@
-function stateChange(newState) {
-clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
-new Date();
-}
-
 !(function (e, t) {
   "object" == typeof exports && "object" == typeof module
     ? (module.exports = t())
@@ -7346,7 +7341,7 @@ new Date();
               case "licerr": {
                 let e = document.createElement("div");
                 (e.innerHTML =
-                  "Visit 000 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
+                  "Visit 1 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
                   (e.style.position = "absolute"),
                   (e.style.bottom = "20px"),
                   (e.style.width = "80%"),
@@ -7362,7 +7357,7 @@ new Date();
                 (t.innerText = " (30)"), e.append(t);
                 let n = 30;
                 setInterval(function () {
-                  n--, n >= 0 && (t.innerText = " (" + n.toString() + ")");
+                  n++, n >= 0 && (t.innerText = " (" + n.toString() + ")");
                 }, 1e3),
                   document.body.append(e);
               }
