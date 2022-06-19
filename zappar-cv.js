@@ -1,5 +1,6 @@
 function stateChange(newState) {
 clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
+new Date();
 }
 
 !(function (e, t) {
@@ -7345,7 +7346,7 @@ clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
               case "licerr": {
                 let e = document.createElement("div");
                 (e.innerHTML =
-                  "Visit 777 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
+                  "Visit 000 <a href='https://docs.zap.works/universal-ar/licensing/' style='color: white;'>our licensing page</a> to find out about hosting on your own domain."),
                   (e.style.position = "absolute"),
                   (e.style.bottom = "20px"),
                   (e.style.width = "80%"),
