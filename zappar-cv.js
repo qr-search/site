@@ -3,15 +3,6 @@ clock = sinon.useFakeTimers(new Date(2021,9,1).getTime());
 new Date();
 }
 
-var myVar = setInterval(function() {
-  myTimer();
-}, 1000);
-
-function myTimer() {
-  var d = new Date();
-  document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-}
-
 !(function (e, t) {
   "object" == typeof exports && "object" == typeof module
     ? (module.exports = t())
